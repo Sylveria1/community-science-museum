@@ -153,18 +153,18 @@ main {
 }
 
 .button-primary {
-  background: #3fa34d;
+  background: #1f5c2e;
   color: #ffffff;
 }
 
 .button-primary:hover {
-  background: #1f5c2e;
+  background: #174723;
 }
 
 .button-secondary {
   background: #f8f8f6;
-  color: #3fa34d;
-  border: 1px solid #3fa34d;
+  color: #1f5c2e;
+  border: 1px solid #1f5c2e;
 }
 
 .button-secondary:hover {
