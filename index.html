@@ -2,10 +2,160 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <meta
+      name="description"
+      content="Explore the Community Science Museum, with hands-on exhibitions, events, visitor information, and learning spaces for all ages."
+    />
+
+    <title>Community Science Museum | Home</title>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-512x512.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
+
   <body>
-    <p>TEST</p>
+    <div class="page-wrapper">
+      <header class="site-header">
+        <a
+          href="index.html"
+          class="logo-link"
+          aria-label="Community Science Museum home"
+        >
+          <img
+            class="logo"
+            src="images/logo.jpg"
+            alt="Community Science Museum logo"
+          />
+          <span class="site-name">Community Science Museum</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html" class="active">Home</a>
+          <a href="explore.html">Explore</a>
+          <a href="visit.html">Visit</a>
+          <a href="events.html">Events</a>
+          <a href="about.html">About</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero home-hero">
+          <div class="hero-content">
+            <h1>Explore Together</h1>
+            <p>
+              Science made accessible, interactive, and exciting for everyone.
+            </p>
+            <a href="explore.html" class="button button-primary"
+              >Explore the museum</a
+            >
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>What Can You Discover?</h2>
+
+          <div class="card-grid">
+            <article class="card">
+              <h3>Explore Exhibitions</h3>
+              <p>
+                Discover hands-on science exhibits, from space and evolution to
+                robotics, medicine, and ecology.
+              </p>
+              <a href="explore.html" class="button button-secondary"
+                >Learn more</a
+              >
+            </article>
+
+            <article class="card">
+              <h3>Plan Your Visit</h3>
+              <p>
+                Find opening hours, admission information, accessibility
+                details, and everything you need before visiting.
+              </p>
+              <a href="visit.html" class="button button-secondary"
+                >Plan your visit</a
+              >
+            </article>
+
+            <article class="card">
+              <h3>Events and Programs</h3>
+              <p>
+                Join family activities, holiday clubs, lectures, and special
+                museum events.
+              </p>
+              <a href="events.html" class="button button-secondary"
+                >View events</a
+              >
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="feature-card">
+            <img
+              src="images/1000-EXHIBITS.jpg"
+              alt="Visitors exploring a science museum exhibition"
+              class="feature-image"
+            />
+
+            <div class="feature-content">
+              <h2>Over 1000 Exhibits to Explore</h2>
+              <p>
+                The museum brings science to life through interactive exhibits
+                designed for curious minds of all ages.
+              </p>
+              <a href="explore.html" class="button button-primary"
+                >Start exploring</a
+              >
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div>
+          <p>Community Science Museum</p>
+          <p>Explore together</p>
+          <p>Science made accessible for everyone.</p>
+        </div>
+
+        <div>
+          <h2>Quick links</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="visit.html">Visit</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Visit:</h2>
+          <p>Vitenskaps Gate 11</p>
+          <p>0123 Oslo</p>
+          <br />
+          <p>Norway</p>
+          <p>contact@communitysciencemuseum.example</p>
+          <p>+47 12 34 56 78</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
