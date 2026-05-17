@@ -125,6 +125,15 @@ main {
   color: #ffffff;
 }
 
+.site-footer ul {
+  list-style: none;
+}
+
+.footer-copy {
+  margin-top: 18px;
+  font-size: 14px;
+}
+
 /* Sections */
 .section {
   padding: 64px 48px;
